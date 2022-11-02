@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-public class MyScanner2
+public class MyScanner
 {
-    String input = "4 29 8 73 10 35";
     public void run() {
-        Scanner scanner = new Scanner(input);
+        Scanner scanner = new Scanner(System.in);
         while (true) {
             if(scanner.hasNext()) {
                 String str = scanner.next();
@@ -14,7 +13,7 @@ public class MyScanner2
     }
 
     public static void main(String[] args) {
-        MyScanner2 myScanner = new MyScanner2();
+        MyScanner myScanner = new MyScanner();
         myScanner.run();
     }
 }

@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 public class MyScanner4
 {
-
+    String input = "Romeo,Sierra,Tango,Uniform,Victor,Whiskey";
     public void run() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(input).useDelimiter("\\s*,\\s*");
         while (true) {
-            if(scanner.hasNextInt()) {
-                int str = scanner.nextInt();
+            if(scanner.hasNext()) {
+                String str = scanner.next();
                 System.out.println(str);
             }
         }
