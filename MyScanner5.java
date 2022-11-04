@@ -4,7 +4,7 @@ public class MyScanner5
 {
     String input = "Romeo,Sierra,Tango,Uniform,Victor,Whiskey";
     public void run() {
-        Scanner scanner = new Scanner(System.in).useDelimiter("\\s*,\\s*");
+        Scanner scanner = new Scanner(System.in).useDelimiter(",");
         while (true) {
             if(scanner.hasNext()) {
                 String str = scanner.next();
