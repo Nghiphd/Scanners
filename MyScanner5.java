@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MyScanner5
 {
-    String input = "Romeo,Sierra,Tango,Uniform,Victor,Whiskey";
+    // Romeo,Sierra,Tango,Uniform,Victor,Whiskey
     public void run() {
         Scanner scanner = new Scanner(System.in).useDelimiter(",");
         while (true) {

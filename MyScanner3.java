@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class MyScanner3
 {
     public void run() {
+        // 4 29 8 73 10 35
         Scanner scanner = new Scanner(System.in); 
         while (true) {
             if (scanner.hasNextInt()) {
