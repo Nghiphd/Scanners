@@ -23,9 +23,19 @@ public class CopyOfScannerReadCSVFile
         while (scanner.hasNext()) {
             // Read the next line of the file
             String line = scanner.nextLine();
-            System.out.println(line);
-            
+            String a = line.substring(0,4);
+            String b = line.substring(5);
+            Scanner sc = new Scanner(b).useDelimiter(",");
+            while(sc.hasNextInt()) {
+                int sum = 0;
+                for(int i = 0; i < 10; i++) {
+                    sum = sum + sc.nextInt();
+                }
+                int average = sum/10;
+                System.out.println(a + ":" + average); 
+            }
         }
+        scanner.close();
     }
 
     public static void main (String[] args) {

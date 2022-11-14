@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=ScannerReadCSVFile
-comment0.text=\n\ Average\ each\ row\ of\ ten\ test\ scores\n
+comment0.text=\r\n\ Average\ each\ row\ of\ ten\ test\ scores\r\n
 comment1.params=
 comment1.target=void\ run()
 comment2.params=args
